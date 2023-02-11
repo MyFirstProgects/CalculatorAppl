@@ -24,7 +24,7 @@ h1 {
     text-align: center;
 }
 
-.operator, .num, .operator-1 {
+.operator, .num, .operator-1, .ac, .res {
     border: 2px solid black;
     border-radius: 10px;
     height: 50px;
@@ -39,10 +39,10 @@ h1 {
     overflow: hidden; */
 }
 
-.operator-1 {
+.operator-1, .ac {
     background-color: rgb(99, 157, 157);
 }
-.operator {
+.operator, .res {
     background-color: rgb(84, 97, 121);
 }
 
